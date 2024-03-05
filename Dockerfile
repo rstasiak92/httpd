@@ -4,4 +4,4 @@ ADD index.html /tmp/src/index.html
 RUN chown -R 1001:0 /tmp/src
 USER 1001
 RUN /usr/libexec/s2i/assemble
-CMD /usr/libexec/s2i/ru
+CMD /usr/libexec/s2i/run
